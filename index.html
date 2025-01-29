@@ -10,17 +10,19 @@
     <div class="todo">
       <header class="todo__header">
         <h1 class="todo__greeting" id="greeting"></h1>
-        <p class="todo_fact" id="randomFact">Loading a random fact... Get ready!</p>
+        <p class="todo__fact" id="randomFact">Loading a random fact... Get ready!</p>
       </header>
-      <div class="todo__input">
-        <input type="text" class="todo__input-field" id="taskInput" placeholder="Add a new task..." />
-        <button class="todo__button" id="addTaskBtn">Add task</button>
+      <div class="todo__input-container">
+        <input type="text" class="todo__input" id="taskInput" placeholder="Add a new task" />
+        <button class="todo__add-btn" id="addTaskBtn">Add</button>
       </div>
-      <ul class="todo__list" id="taskList"></ul>
-      <button class="todo__clear-button" id="clearTaskBtn">Clear task</button>
+      <ul class="todo__list" id="taskList">
+        
+      </ul>
     </div>
 
 
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
+
