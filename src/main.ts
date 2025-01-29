@@ -17,7 +17,12 @@ const setGreeting = (): void => {
     greetingElement.textContent = greeting;
 };
 
+const fetchRandomFact = async (): Promise<void> => {
+  const response = await fetch("https://uselessfacts.jsph.pl/random.json?language=en");
+  const data = await response.json();
+  factElement.textContent = data.text;
 
+};
 
 
 
@@ -27,4 +32,5 @@ const setGreeting = (): void => {
 
 document.addEventListener("DOMContentLoaded", () => {
     setGreeting();
+    fetchRandomFact();
 });
