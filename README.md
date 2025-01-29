@@ -24,36 +24,43 @@ There will also be a image of a bin so the item can be deleted.
 
 ### HTML
 
-First Section
-Div containing:
-Header Element for the greeting
-Paragraph element for the random fact. Will need to have placeholder test.
+-   [ ] First Section
 
-Second Section
-Div containing:
-An input element where the new to do list item will be written.
-A button element to add to the to do list item
+    -   [ ] Div containing:
+        -   [ ] Header Element for the greeting
+        -   [ ] Paragraph element for the random fact. Will need to have placeholder test.
 
-Third Section
-Div containing:
-An list (unordered or ordered?) containing all the to do list items.
-A button element to clear teh task
+-   [ ] Second Section
+
+    -   [ ] Div containing:
+        -   [ ] An input element where the new to do list item will be written.
+        -   [ ] A button element to add to the to do list item
+
+-   [ ] Third Section
+    -   [ ] Div containing:
+        -   [ ] An list (unordered or ordered?) containing all the to do list items.
+        -   [ ] A button element to clear teh task
 
 ### CSS
 
-Basic styling for now
-USE BEM CONVENTION
+-   [ ] Basic styling for now
+    -   [ ] USE BEM CONVENTION
 
 ### TypeScript
 
-Constant for the input, buttons, task list, others...
-Object containing the task. The task should contain the id of the task, text, completed as a boolean.
-Function for the greeting depending on time of day.
-Function for the random fact
-Function to add a task
-Function to complete the task
-Function to remove/clear the task
+-   [ ] Constant for the input, buttons, task list, others...
+-   [ ] Object containing the task. The task should contain the id of the task, text, completed as a boolean.
+-   [ ] Function list
 
-Event listeners for the buttons.
+    -   [ ] Function for the greeting depending on time of day.
+    -   [ ] Function for the random fact
+    -   [ ] Function to add a task
+    -   [ ] Function to complete the task
+    -   [ ] Function to remove/clear the task
+
+-   [ ] Event Listeners
+    -   [ ] Event listeners for the buttons.
+
+The task should be
 
 ### API call
