@@ -32,11 +32,12 @@ Paragraph element for the random fact. Will need to have placeholder test.
 Second Section
 Div containing:
 An input element where the new to do list item will be written.
-A button element to delete the the to do list item
+A button element to add to the to do list item
 
 Third Section
 Div containing:
 An list (unordered or ordered?) containing all the to do list items.
+A button element to clear teh task
 
 ### CSS
 
