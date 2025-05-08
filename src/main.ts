@@ -24,19 +24,7 @@ const fetchRandomFact = async (): Promise<void> => {
   factElement.textContent = data.text;
 };
 
-// adding a new task
-const addTask = (): void => {
 
-  const text = taskInput
-
-  const newTask: Task = 
-}
-
-
-// grab ul element
-// cerreate li elemetn
-//insert tex into li Element
-//append li element to the ul
 
 document.addEventListener("DOMContentLoaded", () => {
     setGreeting();
